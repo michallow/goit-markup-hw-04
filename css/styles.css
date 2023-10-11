@@ -575,7 +575,6 @@ body {
 }
 
 .logo-n-paragraph {
-  align-items: baseline;
   margin-right: 120px;
 }
 
@@ -601,4 +600,5 @@ body {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
