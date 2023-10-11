@@ -92,6 +92,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .tag-line-header {
@@ -543,4 +544,38 @@ body {
 
 .customer-icon {
   fill: currentColor;
+}
+
+.container-footer {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
+.social-media-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.social-media-footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-footer-item {
+  height: 40px;
+  weight: 40px;
+}
+
+.logo-n-paragraph {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
