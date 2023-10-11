@@ -568,6 +568,7 @@ body {
 .social-media-footer-list {
   display: flex;
   gap: 16px;
+  list-style: none;
 }
 
 .social-media-footer-item {
@@ -576,7 +577,6 @@ body {
 }
 
 .logo-n-paragraph {
-  display: flex;
   align-items: baseline;
   gap: 120px;
 }
@@ -597,4 +597,8 @@ body {
 
 .footer-icon {
   fill: var(--color-cloud);
+}
+
+.footer-flex {
+  display: flex;          
 }
