@@ -12,6 +12,7 @@
   --color-cornflower: #e7e9fc;
   --color-ocean: #404bbf;
   --color-slate: #434455;
+  --color-light-slate: #8e8f99;
 }
 
 img {
@@ -466,6 +467,7 @@ body {
   justify-content: center;
   gap: 24px;
   list-style: none;
+  padding-top: 8px;
 }
 
 .social-media-icon {
@@ -492,5 +494,53 @@ body {
 }
 
 .icon-fill {
-  fill: var(--color-cloud)
+  fill: var(--color-cloud);
+}
+
+.our-customers {
+  padding: 120px 0;
+}
+
+.customers-header {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--color-navy-blue);
+  margin: 0 0 72px 0;
+  text-align: center;
+}
+
+.customer-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.customer-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customer-list-item-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--color-light-slate);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-light-slate);
+}
+
+.customer-list-item-link:hover {
+  color: var(--color-ocean);
+  border-color: var(--color-ocean);
+}
+
+.customer-list-item-link:focus {
+  color: var(--color-ocean);
+  border-color: var(--color-ocean);
+}
+
+.customer-icon {
+  fill: currentColor;
 }
