@@ -583,6 +583,8 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  display: flex;
+  background-color: var(--color-iris);
 }
 
 .social-media-footer-link:hover {
