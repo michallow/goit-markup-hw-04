@@ -552,8 +552,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
-  align-items: baseline;
-  gap: 120px;
 }
 
 .social-media-footer {
@@ -578,13 +576,15 @@ body {
 
 .logo-n-paragraph {
   align-items: baseline;
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .social-media-footer-link {
-  display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .social-media-footer-link:hover {
@@ -600,5 +600,5 @@ body {
 }
 
 .footer-flex {
-  display: flex;          
+  display: flex;
 }
