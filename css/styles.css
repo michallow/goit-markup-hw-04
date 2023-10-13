@@ -42,6 +42,7 @@ body {
 .address {
   color: var(--color-slate);
   font-style: normal;
+  font-weight: 400;
   display: flex;
   gap: 40px;
 }
@@ -74,11 +75,16 @@ body {
   color: var(--color-cloud);
 }
 
+.logo-n-paragraph {
+  margin-right: 120px;
+  max-width: 264px;
+  max-height: 72px;
+}
+
 .paragraph-footer {
   line-height: 1.5;
   color: var(--color-cloud);
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
 
 .tag-line {
@@ -171,6 +177,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  font-weight: 400;
 }
 
 .section-team {
@@ -571,10 +578,6 @@ body {
 .social-media-footer-item {
   height: 40px;
   width: 40px;
-}
-
-.logo-n-paragraph {
-  margin-right: 120px;
 }
 
 .social-media-footer-link {
