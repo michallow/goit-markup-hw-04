@@ -204,7 +204,7 @@ body {
 }
 
 .navigation-bar {
-  border-bottom: 1px solid #e7e9fc;
+  outline: 1px solid #e7e9fc;
   padding: 24px 0;
 }
 
